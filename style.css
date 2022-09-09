@@ -1,0 +1,11 @@
+* {
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 32px;
+    font-weight: 400px;
+} 
+
+
+
+main{
+    display: flex;
+}
