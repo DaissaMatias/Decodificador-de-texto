@@ -7,16 +7,271 @@
 } 
 
 .main {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
 
 }
 
+.btn-criptografar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+
+    background: #781b77;
+    border-radius: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    flex-grow: 0;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    justify-content: center;
+}
+
+.btn-descriptografar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 352px; 
+    top: 0px;
+
+    background: #b891b6;
+    border: 1px solid #781b77;
+    box-sizing: border-box;
+    border-radius: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+    color: #781b77;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    justify-content: center;
+}
+
+.adc-texto {
+    text-transform: lowercase;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 15%;
+    top: 168px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    justify-content: baseline;
+    resize: none;
+
+    color: #781b77;
+    background: transparent;
+    border: none;
+}
+
+::placeholder { color: #781b77}
+
+.adc-texto:focus {
+    border: none;
+    outline: none;
+}
+
+.caixa-mensagem {
+    position: absolute;
+    width: 400px;
+    height: 750px;
+    left: 70%;
+    top: 20px;
+    padding-left: 20px;
+    padding-top: 80px;
+
+    background: white;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.caixa-mensagem h2 {
+    position: static;
+    width: 336px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 120%;
+
+    text-align: center;
+
+    color: #343A40;
+    background: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.caixa-mensagem h3 {
+    position: static;
+    width: 336px;
+    height: 48px;
+    left: 0px;
+    top: 74px;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+
+    color: #495057;
+    background: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.mensagem-box-div, .mensagem-box-div img {
+    padding-top: 40px;
+    background: #FFFFFF;
+} 
+
+.imag-aleta {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+}
+
+label {
+    position: static;
+    width: auto;
+    height: 18px;
+    left: 24px;
+    top: 0px;
+    padding-left: 25px;
+    font-weight: 600;
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 100%; 
+    color: #495057;
+}
+
+.inf-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: auto;
+    height: 18px;
+    left: 13%;
+    top: 651px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 12%;
+    top: 685px;
+
+}
+
 .logo {
-    position:absolute;
+    position: absolute;
     left: 30px;
     right: 37.43%;
     top: 25px;
     bottom: 0%;
+
+}
+.div-mensagem {
+    position: absolute;
+    width: 400px;
+    height: 781px;
+    left: 60px;
+    top: 52px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    resize: none;
+
+    color: #495057;
+    border: none;
+    background: transparent;
+}
+
+.div-mensagem:focus {
+    border: none;
+    outline: none;
+}
+
+.btn-copiar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 25px;
+    top: 660px;
+
+    border: 1px solid #781b77;
+    box-sizing: border-box;
+    border-radius: 24px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    text-align: center;
+    color: #781b77;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
+    justify-content: center;
 }
