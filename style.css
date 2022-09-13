@@ -275,3 +275,201 @@ label {
     margin: 0px 8px;
     justify-content: center;
 }
+
+@media  only screen and (min-width: 1224px) and (max-width: 1590px) {
+ main{
+    height: 100%;
+ }   
+ .adc-texto {
+    top: 8rem;
+    left: 7.1rem;
+    word-wrap: break-word;
+ }
+ .logo {
+    left: 1rem;
+    width: 8%;
+ }
+ .botoes {
+    top: 34.5rem;
+    left: 5rem;
+ }
+ .inf-form {
+    left: 7.3rem;
+    top: 32rem;
+ }
+ .btn-criptografar, .btn-descriptografar {
+    font-size: 24px;
+    height: 65px;
+ } 
+ .caixa-mensagem {
+    top: 1.5rem;
+    height: 38rem;
+    left: 56rem;
+ }
+ .mensagem-box-div {
+    padding-top: 0rem;
+    height: 20rem;
+    padding-left: 1rem;
+ }
+.mensagem-box-div img {
+    width: 18rem;
+    padding-left: 1.5rem;
+}
+.btn-copiar {
+    top: 33rem;
+    height: 64px;
+    font-size: 24px;
+}
+.div-mensagem {
+    width: 20rem;
+    left: 2.5rem;
+    word-wrap: break-word;
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+   main {
+    height: 100%;
+   } 
+   .adc-texto {
+    width:34rem;
+    top:10rem;
+    left:5.1rem;
+   }
+   .logo {
+    top: 3rem;
+    left:2.8rem;
+    width:18%;
+   }
+   .botoes {
+    top:32.5rem;
+    left:4rem;
+   }
+   .inf-form {
+    left:5.3rem;
+    top:30rem;
+   }
+   .btn-criptografar, .btn-descriptografar {
+    width: 280px;
+    font-size:24px;
+    height:65px;
+    margin: 0.5rem;
+   }
+   .caixa-mensagem {
+    width:36rem;
+    left:4.3rem;
+    top:40rem;
+    padding:0;
+    height:100%
+   }
+   .mensagem-box-div {
+    padding-top:1rem;
+    height:auto;
+    border-radius: 32px;
+    padding-left: 5.5rem;
+   }
+   .mensagem-box-div h2, h3 {
+    font-size:24px;
+    width:80%;
+    margin: 0.5rem;
+    height:auto;
+   }
+   .mensagem-box-div img {
+    display: none;
+   }
+   .btn-copiar {
+    top:24rem;
+    width:32rem;
+    height:65px;
+    font-size:24px;
+   }
+   .div-mensagem {
+    height:auto;
+    left:2.5rem;
+    flex: 1 1 auto;
+   }
+    
+}
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 480px){ 
+    main{
+      height:100%;
+    }
+    .adc-texto {
+      width:20rem;
+      top:8rem;
+      left:1.5rem;
+      font-size: 22px;
+      word-wrap: break-word;
+      } 
+    .logo {
+      top: 1rem;
+      left: -1.5rem;
+      width:25%;
+    }
+    .botoes {     
+      flex-direction: column;
+      top:25.5rem;
+      left:1.5rem;
+    }
+    .inf-form {
+      left:2.3rem;
+      top:24rem;
+    }
+    label {
+      font-size:12px;
+    }
+    .btn-criptografar,.btn-descriptografar {
+      width: 320px;
+      font-size:20px;
+      height:65px;
+      margin: 0.5rem;
+    }
+    .caixa-mensagem {
+      width:20rem;
+      left:2rem;
+      top:37rem;
+      padding:0;
+      height:6rem;
+  
+    }
+    .mensagem-box-div {
+      padding-top:0.5rem;
+      height:auto;
+      border-radius: 32px;
+      padding-left: 1.5rem;
+    }
+    .mensagem-box-div h2 {
+      font-size:14px;
+      width:80%;
+      margin: 0.5rem;
+      height:100%;
+      
+    }
+    .mensagem-box-div h3 {
+      font-size:12px;
+      width:80%;
+      margin: 0.5rem;
+      height:100%;
+      
+    }
+    .mensagem-box-div img {
+      display: none;
+    }
+    .btn-copiar{
+      top:8rem;
+      width: 320px;
+      height:62px;
+      font-size:20px;
+      left:-0.5rem;
+    }
+    .div-mensagem {
+      width: 17rem;
+      top: 0.5rem;
+      height:8rem;
+      left:1.5rem;
+      font-size: 14px;
+      word-wrap: break-word;
+    }
+  } 
